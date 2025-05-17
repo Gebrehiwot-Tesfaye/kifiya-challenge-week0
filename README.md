@@ -1,13 +1,48 @@
-# kifiya-challenge-week0
+# Solar Data Analysis Project
 
-## this is the first week0 task
+## Branch Structure
+- `main`: Main branch containing stable code
+- `setup-task`: Initial setup and environment configuration
+- `eda-benin`: Exploratory Data Analysis for Benin
+- `eda-sierra-leone`: Exploratory Data Analysis for Sierra Leone
+- `eda-togo`: Exploratory Data Analysis for Togo
+- `compare-countries`: Cross-country comparison analysis
+- `dashboard-dev`: Streamlit dashboard development
 
- 1. process first clone the repo go to code section the copy the https or ssl then go to your terminal and say git clone "your copied https"
+## Setup Instructions
+1. Clone the repository
+2. Install dependencies
+3. Run the Streamlit app
 
- 2. then cd go to your clone folder
+```bash
+streamlit run app/main.py
+```
 
-3. then create vertual environment
+## Data Files
+- `data/benin_clean.csv`: Cleaned Benin solar data
+- `data/sierra_leone_clean.csv`: Cleaned Sierra Leone solar data
+- `data/togo_clean.csv`: Cleaned Togo solar data
 
-4. if you are using window use python -m venv "your vertual environment name any" but if you use mac make python to python3
+## Dashboard Features
+- Date range selection
+- Country-specific data visualization
+- Summary statistics display
+- Interactive charts
 
-5. then activate source "your venv"/scripts/activate
+## Project Structure
+- `app/`: Streamlit app files
+- `data/`: Cleaned data files
+- `notebooks/`: Jupyter notebooks for data exploration
+- `requirements.txt`: Python dependencies
+- `README.md`: Project overview
+
+## Contributing
+1. Fork the repository
+2. Create a new branch
+3. Make your changes and commit them
+4. Push to your fork
+5. Create a pull request
+
+
+
+
