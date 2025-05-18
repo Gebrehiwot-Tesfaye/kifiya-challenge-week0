@@ -125,8 +125,26 @@ try:
                 
             with col2:
                 st.subheader('Correlation with Temperature')
-                fig = px.scatter(df_filtered, x='Tamb', y=metric,
-                                title=f'{metric} vs Temperature')
+                try:
+                    fig = px.scatter(
+                        df_filtered, 
+                        x='Tamb', 
+                        y=metric,
+                        title=f'{metric} vs Temperature',
+                        trendline="ols"
+                    )
+                except ImportError:
+                    # Fallback to basic scatter plot if statsmodels isn't available
+                    fig = px.scatter(
+                        df_filtered, 
+                        x='Tamb', 
+                        y=metric,
+                        title=f'{metric} vs Temperature'
+                    )
+                fig.update_layout(
+                    xaxis_title='Temperature (°C)',
+                    yaxis_title=f'{metric} (W/m²)'
+                )
                 st.plotly_chart(fig)
 
 except Exception as e:
