@@ -168,7 +168,7 @@ _Figure 1: Sierra Leone solar data analysis showing average GHI of 207.24 W/m²,
 
 #### 2. Benin Analysis View
 
-![Benin Dashboard](../dashboard*screenshots/benin.png)
+![Benin Dashboard](../dashboard_screenshots/benin.png)
 \_Figure 2: Benin solar data analysis displaying average GHI of 241.95 W/m², max GHI of 1208.50 W/m², and standard deviation of 330.06 W/m². Note the higher variability in measurements.\*
 
 #### 3. Togo Analysis View
