@@ -163,17 +163,18 @@ This week's challenge provided valuable experience in data analysis, visualizati
 
 #### 1. Sierra Leone Analysis View
 
-![Sierra Leone Dashboard](../dashboard_screenshots/sierra_leone_view.png)
+![Sierra Leone Dashboard](../dashboard_screenshots/seralione.png)
 _Figure 1: Sierra Leone solar data analysis showing average GHI of 207.24 W/m², max GHI of 906.00 W/m², and standard deviation of 293.86 W/m². The time series shows consistent daily patterns with clear peaks._
 
 #### 2. Benin Analysis View
 
-![Benin Dashboard](../dashboard_screenshots/benin_view.png)
-_Figure 2: Benin solar data analysis displaying average GHI of 241.95 W/m², max GHI of 1208.50 W/m², and standard deviation of 330.06 W/m². Note the higher variability in measurements._
+![Benin Dashboard](../dashboard*screenshots/benin
+.png)
+\_Figure 2: Benin solar data analysis displaying average GHI of 241.95 W/m², max GHI of 1208.50 W/m², and standard deviation of 330.06 W/m². Note the higher variability in measurements.*
 
 #### 3. Togo Analysis View
 
-![Togo Dashboard](../dashboard_screenshots/togo_view.png)
+![Togo Dashboard](../dashboard_screenshots/togo.png)
 _Figure 3: Togo solar data analysis showing average GHI of 239.44 W/m², max GHI of 1106.00 W/m², and standard deviation of 326.39 W/m². The correlation with temperature shows a strong positive relationship._
 
 ### Key Dashboard Features
@@ -195,11 +196,3 @@ _Figure 3: Togo solar data analysis showing average GHI of 239.44 W/m², max GHI
    - Clear daily solar radiation patterns
    - Strong temperature-GHI correlation across all locations
    - Varying levels of measurement consistency between countries
-
-### Code Examples
-
-[Include key code snippets here]
-
-### Statistical Results
-
-[Include detailed statistical analysis]
